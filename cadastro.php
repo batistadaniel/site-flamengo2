@@ -22,7 +22,7 @@ session_start();
     }
     ?>
     <div class="formulario">
-        <form action="Envio.php" method="post">
+        <form action="envio.php" method="post">
             <div class="logo">
                 <img src="https://images.mengo.com.br/prod/assets/images/logo-st-nova.png" alt="">
             </div>
@@ -34,7 +34,7 @@ session_start();
                 <input type="text" name="cpf" placeholder="CPF">
                 <div class="btns">
                     <button type="submit">Criar</button>
-                    <button type="button"><a href="index.html">Voltar</a></button>
+                    <button type="button"><a href="index.php">Voltar</a></button>
                 </div>
             </div>
         </form>

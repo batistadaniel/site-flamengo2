@@ -19,6 +19,7 @@ session_start();
         <button class="btn-login" type="button" id="btn-login"><p>Login</p></button>
     </header>
     <main id="box-login">
+
     <div class="container">
         <div class="logo">
             <img src="src/img/logo-flamengo.webp" alt="Logo Flamengo">
@@ -35,7 +36,7 @@ session_start();
                     <label class="input-senha">Senha</label>
                     <i class="bi bi-eye" id="btn-senha" onclick="mostrarsenha()"></i>
                     <button class="but" type="submit"><strong>Entrar</strong></button>
-                    <a href="cadastro.html" target="_blank"><strong>Cadastre-se</strong></a>
+                    <a href="cadastro.php" target="_blank"><strong>Cadastre-se</strong></a>
                 </div>
             </form>
         </div>

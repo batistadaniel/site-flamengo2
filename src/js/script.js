@@ -28,19 +28,19 @@ function mostrarsenha() {
     };
 }
 
-document.getElementById('loginForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+// document.getElementById('loginForm').addEventListener('submit', function(event) {
+//     event.preventDefault();
 
-    let emailTeste = document.getElementById('email').value;
-    let senhaTeste = document.getElementById('senha').value;
+//     let emailTeste = document.getElementById('email').value;
+//     let senhaTeste = document.getElementById('senha').value;
 
-    let email = "teste@gmail.com";
-    let senha = "12345678";  
+//     let email = "teste@gmail.com";
+//     let senha = "12345678";  
 
-    if (emailTeste === email && senhaTeste === senha) {
-        window.location.href = 'logado.html';
-    } else {
-        alert('E-mail ou senha incorretos');
-    }
-});
+//     if (emailTeste === email && senhaTeste === senha) {
+//         window.location.href = 'logado.html';
+//     } else {
+//         alert('E-mail ou senha incorretos');
+//     }
+// });
 
